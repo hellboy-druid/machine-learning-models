@@ -1,0 +1,22 @@
+{
+  "service": "machine-learning-models",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "data_store": "healthy",
+    "model_registry": "healthy",
+    "inference_engine": "healthy"
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "request_latency_avg": 0.012,
+    "requests_per_second": 50
+  },
+  "metadata": {
+    "environment": "production",
+    "region": "us-east-1",
+    "build_id": "abc123xyz"
+  }
+}
